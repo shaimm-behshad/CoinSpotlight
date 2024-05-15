@@ -22,9 +22,9 @@ const Navbar = ()=>{
       </button>
       <div className={`navbar-links ${isActive ? 'active' : ''}`}>
         <ul>
-          <Link to={'/CoinSpotlight/parallax'}> <li><a href="">Home</a></li></Link>
-          <Link><li><a href="">About</a></li></Link>
-          <Link><li><a href="">Contact</a></li></Link>
+          <Link to={'/CoinSpotlight/parallax'}> <li><a>Home</a></li></Link>
+          <Link><li><a>About</a></li></Link>
+          <Link><li><a>Contact</a></li></Link>
         </ul>
       </div>
     </nav>
