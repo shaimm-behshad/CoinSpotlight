@@ -70,7 +70,7 @@ const Parallax = () => {
     return (
         <div className="parallax-container">
             <audio id="boo" src={neon}></audio>
-            <Link to={'/coins'}>
+            <Link to={'/CoinSpotlight/coins'}>
             <h2 className="object" data-value="3">
                 <a href='' className='glow'>
                     Coin <br />

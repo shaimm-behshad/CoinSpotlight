@@ -26,9 +26,9 @@ function App() {
       
       <Routes>
          <Route path="/CoinSpotlight" element={<Loader />} />
-         <Route path="/parallax" element={<Parallax />} />
-         <Route path="/coins" element={<Coins coins={coins}/>} />
-         <Route path="/coin" element={<Coin />}>
+         <Route path="/CoinSpotlight/parallax" element={<Parallax />} />
+         <Route path="/CoinSpotlight/coins" element={<Coins coins={coins}/>} />
+         <Route path="/CoinSpotlight/coin" element={<Coin />}>
               <Route path=":coinId" element={<Coin />} />
          </Route>
       </Routes>
