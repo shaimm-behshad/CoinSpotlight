@@ -18,7 +18,7 @@ function Loader() {
   useEffect(() => {
     if (!isLoading) {
       const redirectTimer = setTimeout(() => {
-        navigate('/parallax'); 
+        navigate('/CoinSpotlight/parallax'); 
       }, 2000);
 
       return () => clearTimeout(redirectTimer); 
