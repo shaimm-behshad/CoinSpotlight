@@ -13,7 +13,7 @@ const Navbar = ()=>{
     return(
        
       <nav className="navbar">
-      <Link to={'/'}><div className="brand-title">CoinSpotlight</div></Link>
+      <Link to={'/CoinSpotlight'}><div className="brand-title">CoinSpotlight</div></Link>
       <div className="market">Market</div>
       <button className="toggle-button" onClick={toggleNavbar}>
         <span className="bar"></span>
@@ -22,9 +22,9 @@ const Navbar = ()=>{
       </button>
       <div className={`navbar-links ${isActive ? 'active' : ''}`}>
         <ul>
-          <li><a href="/parallax">Home</a></li>
-          <li><a href="/parallax">About</a></li>
-          <li><a href="/parallax">Contact</a></li>
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Contact</a></li>
         </ul>
       </div>
     </nav>

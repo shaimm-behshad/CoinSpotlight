@@ -13,6 +13,7 @@ import usdcoin from '../assets/usd-coin-usdc-logo.png'
 import tether from '../assets/tether-usdt-logo.png'
 import polkadot from '../assets/polkadot-new-dot-logo.png'
 import neon from '../assets/sounds/Neon Sound Effect.mp3'
+import { Link } from 'react-router-dom';
 
 
 const Parallax = () => {
@@ -69,12 +70,14 @@ const Parallax = () => {
     return (
         <div className="parallax-container">
             <audio id="boo" src={neon}></audio>
+            <Link to={'/coins'}>
             <h2 className="object" data-value="3">
-                <a href='/coins' className='glow'>
+                <a href='' className='glow'>
                     Coin <br />
                     <span>Spotlight</span>
                 </a>
             </h2>
+            </Link>
             <img src={dogecoin} className="object Dogecoin" data-value="-2" alt="Dogecoin" />
             <img src={avalanche}  className="object avalanche" data-value="6" alt="avalanche" />
             <img src={bitcoin} className="object bitcoin" data-value="4" alt="bitcoin" />
