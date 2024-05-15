@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body{
+    font-family: sans-serif;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.parallax-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.parallax-container h2{
+    z-index: 1;
+    position: relative;
+    color: #ed500a;
+    font-size: 90px;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 32px;
+    line-height: 60px;
+}
+.parallax-container a{
+    color: #ed500a;
+}
+
+
+.parallax-container a:hover{
+    color: #fff;
+    text-shadow: 0 0 10px #fff,
+    0 0 20px #fff, 0 0 40px #fff,
+    0 0 80px #fff, 0 0 120px #fff;
+}
+
+.parallax-container h2 span{
+    font-size: 48px;
+    font-weight: 500;
+    letter-spacing: 10px;
+}
+
+.Dogecoin{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    bottom: 10%;
+    left: 10%;
+}
+
+.avalanche{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    bottom: 10%;
+    right: 10%;
+}
+
+.bitcoin{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 10%;
+    right: 150px;
+}
+
+.bnb{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 10%;
+    left: 10%;
+}
+
+.cardano{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 10%;
+    left: 43%;
+}
+
+.ethereum{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    bottom: 10%;
+    left: 43%;
+}
+
+.polygon{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    bottom:  10%;
+    right: 30%;
+}
+
+.solana{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top:  10%;
+    right: 30%;
+}
+
+.uniswap{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top:10%;
+    left: 28%;
+}
+
+.usdcoin{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    bottom: 10%;
+    left:28%;
+}
+
+.tether{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    bottom: 45%;
+    left:10%;
+}
+
+.polkadot{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    bottom: 45%;
+    right:10%;
+}
+
+@media (max-width:800px){
+    .parallax-container h2{
+        font-size: 60px;
+        letter-spacing: 19px;
+        line-height: 35px;
+    }
+
+    .parallax-container h2 span{
+        font-size: 26px;
+    }
+
+    .Dogecoin{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        bottom: 10%;
+        left: 10%;
+    }
+    
+    .avalanche{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        bottom: 10%;
+        right: 10%;
+    }
+    
+    .bitcoin{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        top: 10%;
+        right: 10%;
+    }
+    
+    .bnb{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        top: 10%;
+        left: 10%;
+    }
+    
+    .cardano{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        top: 10%;
+        left: 43%;
+    }
+    
+    .ethereum{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        bottom: 10%;
+        left: 43%;
+    }
+    
+    .polygon{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        bottom:  10%;
+        right: 30%;
+    }
+    
+    .solana{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        top:  10%;
+        right: 30%;
+    }
+    
+    .uniswap{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        top:10%;
+        left: 28%;
+    }
+    
+    .usdcoin{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        bottom: 10%;
+        left:28%;
+    }
+    
+    .tether{
+        position: absolute;
+        width:50px;
+        height:50px;
+        bottom: 45%;
+        left:10%;
+    }
+    
+    .polkadot{
+        position: absolute;
+        width:50px;
+        height:50px;
+        bottom: 45%;
+        right:10%;
+    }
+
+
+}
