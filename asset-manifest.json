@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/CoinSpotlight/static/css/main.9ff9c124.css",
+    "main.js": "/CoinSpotlight/static/js/main.96d895da.js",
+    "static/media/Neon Sound Effect.mp3": "/CoinSpotlight/static/media/Neon Sound Effect.ebdb07c35c5ce864c70d.mp3",
+    "static/media/ethereum-eth-logo.png": "/CoinSpotlight/static/media/ethereum-eth-logo.a85b6de0dc4a013ae2f8.png",
+    "static/media/solana-sol-logo.png": "/CoinSpotlight/static/media/solana-sol-logo.88dd9cd2498aebe1ee8c.png",
+    "static/media/usd-coin-usdc-logo.png": "/CoinSpotlight/static/media/usd-coin-usdc-logo.c4477cfcf6565cacc68b.png",
+    "static/media/uniswap-uni-logo.png": "/CoinSpotlight/static/media/uniswap-uni-logo.b26fd45eacb74a82fe93.png",
+    "static/media/1.gif": "/CoinSpotlight/static/media/1.57410557e045b591204e.gif",
+    "static/media/bnb-bnb-logo.png": "/CoinSpotlight/static/media/bnb-bnb-logo.27f54c9b112c188df5b5.png",
+    "static/media/polkadot-new-dot-logo.png": "/CoinSpotlight/static/media/polkadot-new-dot-logo.f6a28fa08b3298a9a296.png",
+    "static/media/cardano-ada-logo.png": "/CoinSpotlight/static/media/cardano-ada-logo.d9b90224323ccff57026.png",
+    "static/media/bitcoin-btc-logo.png": "/CoinSpotlight/static/media/bitcoin-btc-logo.82491fef997ab841639c.png",
+    "static/media/polygon-matic-logo.png": "/CoinSpotlight/static/media/polygon-matic-logo.1140771b39c8269a6d1b.png",
+    "static/media/tether-usdt-logo.png": "/CoinSpotlight/static/media/tether-usdt-logo.c1d587669942a5e9bc47.png",
+    "static/media/_Protocol=Dogecoin, Shadow=TRUE.png": "/CoinSpotlight/static/media/643db06c780f9a661179a6e9_Protocol=Dogecoin, Shadow=TRUE.5610ad49f775dd08edca.png",
+    "static/media/avalanche-avax-logo.png": "/CoinSpotlight/static/media/avalanche-avax-logo.e1fb45e8e070674b1a54.png",
+    "index.html": "/CoinSpotlight/index.html",
+    "main.9ff9c124.css.map": "/CoinSpotlight/static/css/main.9ff9c124.css.map",
+    "main.96d895da.js.map": "/CoinSpotlight/static/js/main.96d895da.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ff9c124.css",
+    "static/js/main.96d895da.js"
+  ]
+}
